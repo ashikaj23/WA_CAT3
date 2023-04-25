@@ -140,14 +140,50 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </p>
 
 &emsp;  &emsp;  &emsp;  &emsp;  <button><a href="cart.html" style="font: bold 24px Arial; color:red;">Add-to-cart</a></button> &emsp;  &emsp;  			 
-<button type="button" style="font: bold 24px  Arial; color:green;"><a href="sucess.html">Purchase</a></button><br />
+<button id="btn1" onclick= "dataLayer.push({
+  event: "purchase",
+  ecommerce: {
+      currency: "USD",
+      value: 237.21,
+      tax: 5.22,
+      shipping: 5.06,
+      items: [
+       {
+        item_id: "RT_632",
+        item_name: "Python",
+        index: 0,
+	currency: "USD",
+        affilation: "Google Merchandise Store",
+        price: 56.9,
+        quantity: 1
+      }]
+  }
+});" type="button" style="font: bold 24px  Arial; color:green;"><a href="sucess.html">Purchase</a></button><br />
 </br></br>
 <p>
 &emsp;  &emsp;  <img src="img/2.jpg" width="500" height="200">
 </p>
 
 &emsp;  &emsp;  &emsp;  &emsp;  <button><a href="cart.html" style="font: bold 24px Arial; color:red;">Add-to-cart</a></button> &emsp;  &emsp;  			 
-<button type="button" style="font: bold 24px  Arial; color:green;"><a href="sucess.html">Purchase</a></button><br />
+<button id="btn2" onclick= "dataLayer.push({
+  event: "purchase",
+  ecommerce: {
+      currency: "USD",
+      value: 237.21,
+      tax: 5.22,
+      shipping: 5.06,
+      items: [
+      {
+        item_id: "RT_921",
+        item_name: "Java",
+        index: 1,
+	currency: "USD",
+        affilation: "Google Merchandise Store",
+        price: 68.23,
+        quantity: 1
+      }]
+  }
+});" type="button" style="font: bold 24px  Arial; color:green;"><a href="sucess.html">Purchase</a></button><br />
 
 </body>
 
